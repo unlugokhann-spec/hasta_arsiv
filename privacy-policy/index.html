@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Med Archive — Gizlilik Politikası</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0F1923;
+      color: #E2E8F0;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 60px;
+      line-height: 1.7;
+    }
+    h1 { color: #2DD4BF; font-size: 24px; margin-bottom: 6px; }
+    .meta { color: #64748B; font-size: 13px; margin-bottom: 36px; }
+    h2 { color: #E2E8F0; font-size: 16px; font-weight: 600; margin-top: 32px; margin-bottom: 10px; }
+    p  { color: #94A3B8; font-size: 14px; }
+    footer { margin-top: 48px; text-align: center; color: #64748B; font-size: 12px; }
+    a { color: #2DD4BF; }
+  </style>
+</head>
+<body>
+  <h1>Med Archive — Gizlilik Politikası</h1>
+  <p class="meta">Son güncelleme: Ağustos 2026</p>
+
+  <h2>1. Veri Toplama</h2>
+  <p>Med Archive uygulaması yalnızca sizin tarafınızdan girilen hasta bilgilerini işler. Bu veriler üçüncü taraflarla paylaşılmaz veya satılmaz.</p>
+
+  <h2>2. Depolama Modları</h2>
+  <p>Uygulamayı ilk kullanıma başladığınızda bir depolama modu seçersiniz: <strong>Yerel</strong> (varsayılan), <strong>Google Drive</strong> veya <strong>Bulut (Klinik)</strong>. Yerel modda hasta kayıtları, fotoğraflar ve belgeler yalnızca cihazınızın yerel depolama alanında saklanır ve herhangi bir uzak sunucuya otomatik olarak gönderilmez.</p>
+
+  <h2>3. Bulut Depolama (Klinik Modu)</h2>
+  <p>Birden fazla kullanıcının aynı klinik verilerine eriştiği "Klinik" modunu seçerseniz hasta kayıtları, fotoğraflar, videolar ve belgeler Google Firebase altyapısı (Cloud Firestore ve Cloud Storage) üzerinde saklanır. Bu veriler yalnızca klinik hesabınıza tanımlı yetkili kullanıcılar tarafından erişilebilir ve Google'ın Firebase gizlilik ve güvenlik politikalarına tabidir. Bu mod yalnızca kullanıcı tercihiyle etkinleşir; varsayılan mod yerel depolamadır.</p>
+
+  <h2>4. Google Drive Yedekleme</h2>
+  <p>Yedekleme özelliğini kullanırsanız verileriniz kendi Google Drive hesabınıza yüklenir. Bu işlem Google'ın gizlilik politikasına tabidir. Uygulamanın Drive erişimi yalnızca "Med Archive" klasörüyle sınırlıdır.</p>
+
+  <h2>5. Google ile Giriş</h2>
+  <p>Kimlik doğrulama amacıyla kullanılır. Adınız ve e-posta adresiniz okunur; yerel modda bu bilgiler yalnızca cihazda, klinik modunda ise Firebase Authentication üzerinde saklanır ve üçüncü taraflarla paylaşılmaz.</p>
+
+  <h2>6. Yapay Zeka (Claude API)</h2>
+  <p>Belge tanıma, hasta bilgisi çıkarma ve akıllı içerik/arama özellikleri için OCR metni, görüntüler ve girdiğiniz sorgular Anthropic'in Claude API'sine gönderilebilir. Bu veriler Anthropic'in gizlilik politikasına tabidir. Kişisel kimlik bilgisi içeren belgeleri AI ile işlemeden önce dikkatli olunuz.</p>
+
+  <h2>7. Kamera ve Mikrofon</h2>
+  <p>Uygulama, fotoğraf/video çekmek ve sesli arama için kamera ve mikrofon izni ister. Bu veriler yalnızca ilgili hasta kaydında kullanılır; arka planda kayıt yapılmaz.</p>
+
+  <h2>8. Abonelik ve Ödeme</h2>
+  <p>Uygulama içi abonelik satın alımları Apple App Store / Google Play üzerinden işlenir. Ödeme bilgileriniz Med Archive tarafından görülmez veya saklanmaz; bu işlemler ilgili mağazanın gizlilik politikasına tabidir.</p>
+
+  <h2>9. Veri Silme</h2>
+  <p>Yerel moddayken uygulamayı cihazınızdan silerseniz tüm yerel veriler silinir. Google Drive yedeklerini kaldırmak için Drive'daki "Med Archive" klasörünü silmeniz gerekir. Klinik (bulut) modunda veri silme talepleri için bizimle iletişime geçebilirsiniz.</p>
+
+  <h2>10. İletişim</h2>
+  <p>Gizlilik ile ilgili sorularınız için: <a href="mailto:destek@medarchive.app">destek@medarchive.app</a></p>
+
+  <footer>Med Archive v1.1 &nbsp;•&nbsp; medarchive.app</footer>
+</body>
+</html>
