@@ -15,7 +15,13 @@ export const app = initializeApp(firebaseConfig)
 export const auth = getAuth(app)
 // Kısıtlayıcı proxy/güvenlik duvarı arkasındaki ağlarla uyumluluk için
 // Firestore'un kalıcı akış kanalı yerine long-polling'e otomatik geçmesi sağlanıyor.
-export const db = initializeFirestore(app, {
-  experimentalAutoDetectLongPolling: true,
-  useFetchStreams: false,
-})
+// VITE_FIRESTORE_DATABASE_ID: Firebase konsolunda veritabanı özel "(default)"
+// kimliği yerine başka bir adla (örn. "default") oluşturulduysa burada belirtilir.
+export const db = initializeFirestore(
+  app,
+  {
+    experimentalAutoDetectLongPolling: true,
+    useFetchStreams: false,
+  },
+  import.meta.env.VITE_FIRESTORE_DATABASE_ID || undefined,
+)
