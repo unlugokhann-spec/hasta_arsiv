@@ -15,7 +15,7 @@ export default function Layout() {
   return (
     <div className="app-shell">
       <header className="app-header">
-        <div className="brand">Med Klinik</div>
+        <div className="brand">Med Clinic</div>
         <nav>
           <NavLink to="/" end>
             Panel

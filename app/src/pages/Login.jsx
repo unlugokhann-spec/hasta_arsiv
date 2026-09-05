@@ -27,7 +27,7 @@ export default function Login() {
   return (
     <div className="auth-page">
       <form className="auth-card" onSubmit={handleSubmit}>
-        <h1>Med Klinik</h1>
+        <h1>Med Clinic</h1>
         <p className="subtitle">Hesabına giriş yap</p>
 
         <label>

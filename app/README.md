@@ -1,4 +1,4 @@
-# Med Klinik — Klinik Uygulaması
+# Med Clinic — Klinik Uygulaması
 
 Klinik çalışanlarının ve o kliniğin hastalarının giriş yapabildiği, aralarında
 mesajlaşabildikleri ve randevu oluşturup yönetebildikleri web uygulaması.

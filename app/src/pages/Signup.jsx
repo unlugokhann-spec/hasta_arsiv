@@ -69,7 +69,7 @@ export default function Signup() {
   return (
     <div className="auth-page">
       <form className="auth-card" onSubmit={handleSubmit}>
-        <h1>Med Klinik</h1>
+        <h1>Med Clinic</h1>
         <p className="subtitle">Yeni hesap oluştur</p>
 
         <div className="role-toggle">
