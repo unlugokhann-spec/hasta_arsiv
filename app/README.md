@@ -1,4 +1,4 @@
-# Med Archive — Klinik Uygulaması
+# Med Klinik — Klinik Uygulaması
 
 Klinik çalışanlarının ve o kliniğin hastalarının giriş yapabildiği, aralarında
 mesajlaşabildikleri ve randevu oluşturup yönetebildikleri web uygulaması.

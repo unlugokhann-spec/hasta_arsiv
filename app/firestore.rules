@@ -1,6 +1,6 @@
 rules_version = '2';
 
-// Med Archive - Firestore güvenlik kuralları
+// Med Klinik - Firestore güvenlik kuralları
 // Roller: 'staff' (klinik çalışanı) ve 'patient' (hasta)
 service cloud.firestore {
   match /databases/{database}/documents {
